@@ -1,0 +1,6 @@
+MY first push in Git on Ubuntu Terminal
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
