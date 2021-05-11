@@ -13,3 +13,8 @@ Our first module will teach you everything you need to know to start your career
 * Introduction - Unix & Shell
 * Unix & Bash - Part 1
 * Unix & Bash - Part 2
+
+## Block 2 - Git, GitHub & Internet
+* Git & GitHub - What is and what is for
+* Git & GitHub - Learning the commands
+* Internet - Leraning how it works
