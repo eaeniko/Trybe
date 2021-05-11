@@ -6,3 +6,4 @@ O que eu vou aprender na Trybe:
 - Git
 - Html
 - CSS
+- JavaScript
