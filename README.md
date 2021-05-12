@@ -18,3 +18,11 @@ Our first module will teach you everything you need to know to start your career
 * Git & GitHub - What is and what is for
 * Git & GitHub - Learning the commands
 * Internet - Leraning how it works
+
+## Block 3 - Introduction HTML & CSS
+* Introduction HTML & CSS
+* Page structure
+* First Steps on CSS
+* Selecting and position
+* Semantic HTML
+* Project - Lessons Learned
