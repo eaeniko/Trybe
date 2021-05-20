@@ -1,8 +1,13 @@
-let a = 5;
-let b = 3;
-
-let adicao = a + b;
-let sub = a - b;
-let multi = a * b;
-let div = a / b;
-let mod = a % b;
+let a = 10;
+let b = 15;
+let c = 31;
+let resultado = 0;
+if (a > b && a > c) {
+  resultado = a;
+  console.log(a);
+} else if (b > c) {
+  resultado = b;
+  console.log(b);
+} else {
+  console.log(c);
+}
