@@ -1,9 +1,13 @@
-let a = -5;
+let angulo1 = 30;
+let angulo2 = 50;
+let angulo3 = 'a';
 
-if (a > 0) {
-  console.log('Positive');
-} else if (a < 0) {
-  console.log('Negative');
+if (angulo1 + angulo2 + angulo3 == 180) {
+  let resultado = true;
+  console.log(resultado);
+} else if (angulo1 + angulo2 + angulo3 < 180) {
+  let resultado = false;
+  console.log(resultado);
 } else {
-  console.log('zero');
+  console.log('Errors, check the angles numbers.');
 }
