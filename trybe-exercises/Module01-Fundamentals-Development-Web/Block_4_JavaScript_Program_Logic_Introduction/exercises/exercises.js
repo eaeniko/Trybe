@@ -121,3 +121,16 @@ if ((a % 2) == 1 || (b % 2) == 1 || (c % 2) == 1 ) {
   let resultado = false;
   console.log(resultado);
 }
+
+// 10.
+
+let produto = 50;
+let custoProduto = 0;
+let vendaProduto = 100;
+let lucro = 0;
+let imposto = 20;
+
+custoProduto = produto + (produto/100) * imposto;
+lucro = vendaProduto - custoProduto;
+
+console.log(lucro);
