@@ -1,13 +1,7 @@
-let angulo1 = 30;
-let angulo2 = 50;
-let angulo3 = 'a';
-
-if (angulo1 + angulo2 + angulo3 == 180) {
-  let resultado = true;
-  console.log(resultado);
-} else if (angulo1 + angulo2 + angulo3 < 180) {
-  let resultado = false;
-  console.log(resultado);
+let xadrez = 'King';
+let peca = xadrez.toLowerCase();
+if (peca == 'king') {
+  console.log('Rei anda em todas as direções');
 } else {
-  console.log('Errors, check the angles numbers.');
+  console.log('peça invalidada');
 }
