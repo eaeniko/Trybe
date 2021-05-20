@@ -1,13 +1,9 @@
-let a = 10;
-let b = 15;
-let c = 31;
-let resultado = 0;
-if (a > b && a > c) {
-  resultado = a;
-  console.log(a);
-} else if (b > c) {
-  resultado = b;
-  console.log(b);
+let a = -5;
+
+if (a > 0) {
+  console.log('Positive');
+} else if (a < 0) {
+  console.log('Negative');
 } else {
-  console.log(c);
+  console.log('zero');
 }
