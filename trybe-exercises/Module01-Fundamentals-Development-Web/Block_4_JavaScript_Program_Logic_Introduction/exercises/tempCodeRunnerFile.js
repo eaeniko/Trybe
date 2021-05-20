@@ -1,8 +1,7 @@
-let a = 1;
-let b = 3;
-let c = 7;
-
-if ((a % 2) == 0 || (b % 2) == 0 || (c % 2) == 0 ) {
+let a = 10;
+let b = 30;
+let c = 2;
+if ((a % 2) == 1 || (b % 2) == 1 || (c % 2) == 1 ) {
   let resultado = true;
   console.log(resultado);
 } else {
