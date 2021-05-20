@@ -1,10 +1,15 @@
-// Using arithmetic
+let candidato = 'aprovado';
 
-let base = 5;
-let altura = 8;
-let area = base * altura;
-
-console.log(area);
-
-let perimetro = base + altura + area;
-console.log(perimetro);
+switch (candidato) {
+  case "aprovado":
+    console.log("Aprovado!");
+    break;
+  case "lista":
+    console.log("Lista de espera");
+    break;
+  case "reprovado":
+    console.log("Reprovado");
+    break;
+  default:
+    console.log("não se aplica");
+}
