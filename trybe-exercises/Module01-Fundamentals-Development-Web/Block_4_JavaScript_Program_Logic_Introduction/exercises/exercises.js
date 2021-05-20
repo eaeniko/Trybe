@@ -14,3 +14,13 @@ console.log(multi);
 console.log(div);
 console.log(mod);
 
+// 2.
+let a = 10;
+let b = 4;
+let resultado = 0;
+if (a > b) {
+  resultado = a;
+  console.log(a);
+} else {
+  console.log(b);
+}
