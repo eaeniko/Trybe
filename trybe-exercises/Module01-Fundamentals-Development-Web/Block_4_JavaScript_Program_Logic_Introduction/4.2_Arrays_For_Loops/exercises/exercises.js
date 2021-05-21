@@ -1,6 +1,8 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-
-// 1.
+let somaTotal = 0;
+// 2.
 for (let index = 0; index < numbers.length; index += 1) {
-  console.log(numbers[index]);
+  //let numbersEach = numbers[index];
+  somaTotal = numbers[index] + somaTotal;
+  console.log(somaTotal);
 }
