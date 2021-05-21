@@ -19,14 +19,23 @@ if (media > 20) {
 
 
 for (let index = 0; index < numbers.length; index += 1) {
-  let impar = 0;
-  if ((numbers[index] % 2) != 0) {
-    impar = numbers[index];
-    console.log(impar);
-  } else {
-    
-  }
+
+
 }
+
+
+// 6
+// for (let index = 0; index < numbers.length; index += 1) {
+//   let impar = 0;
+//   if ((numbers[index] % 2) != 0) {
+//     impar = numbers[index];
+//     console.log('nenhum valor impar');
+//   } else {
+
+//   }
+// }
+
+
 
 // 5.
 // let maiorNum = 0;
@@ -40,3 +49,4 @@ for (let index = 0; index < numbers.length; index += 1) {
 //   }
 // } 
 // console.log(maiorNum);
+
