@@ -1,6 +1,6 @@
 let n = 5;
 let print = "*";
-let line = "";
+let line = [' '];
 
 // // 1
 // for (let index = 0; index < n; index += 1) {
@@ -18,3 +18,15 @@ let line = "";
 // }
 
 
+// 3
+for (let index = 0; index < n; index += 1) {
+  if (index < n) {
+    line.push(' ');
+    console.log(line);
+  } else {
+    line.push(print[index]);
+  }
+
+  
+
+}
