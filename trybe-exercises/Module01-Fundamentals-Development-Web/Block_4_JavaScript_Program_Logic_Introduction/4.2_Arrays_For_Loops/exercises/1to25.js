@@ -1,9 +1,9 @@
 let numbers = [];
 let result = 0;
-for (let index = 1; index <= 25; index += 1) {
+for (let index = 0; index < 4; index += 1) {
   numbers.push(index);
 
-  result = index / 2;
+  result = numbers[index] / 2;
   console.log(result);
 }
 //console.log(numbers);
