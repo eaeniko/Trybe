@@ -8,4 +8,4 @@ let player = {
 
 console.log('A jogadora' + ' ' + player.name + ' ' + 'tem' + ' ' + player.age + ' ' + 'anos de idade');
 
-console.log('A jogadora possui' + player.medals.golden);
+console.log('A jogadora possui' + ' ' + player.medals.golden + 'medalhas de ouro e' + ' ' + player.medals.silver + ' ' + 'medalhas de prata');
