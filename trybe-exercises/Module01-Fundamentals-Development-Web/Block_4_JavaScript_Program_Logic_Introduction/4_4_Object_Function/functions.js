@@ -11,3 +11,21 @@ function isPalindrome (string) {
 let result = isPalindrome('ana');
 
 console.log(result);
+
+
+function integer (arrayNumbers) {
+  result = arrayNumbers
+  higherIndex = 0;
+
+
+  for (let key in arrayNumbers) {
+    if (arrayNumbers[key] > higherIndex) {
+      higherIndex = arrayNumbers[key];
+    }
+  }
+
+  return higherIndex;
+}
+
+
+console.log(integer([2, 3, 6, 7, 10, 1]));
