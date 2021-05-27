@@ -7,14 +7,18 @@
     <p class="paragraph">Segundo parágrafo!</p>
 
     <script>
-      document.getElementById('page-title').innerText = "Toy Story 2";
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-      let secondParagraph = document.getElementById('second-paragraph') //.innerText = 'doidera';
-      secondParagraph.style.color = "green";
+      // document.getElementById('page-title').innerText = "Toy Story 2";
+      // const paragraph = document.getElementById("paragraph");
+      // paragraph.style.color = "red";
+      // let secondParagraph = document.getElementById('second-paragraph') //.innerText = 'doidera';
+      // secondParagraph.style.color = "green";
       
       let subtitulo = document.getElementById('subtitle').innerText = 'oloco meu';
+      let paragraph = document.getElementsByClassName('paragraph')[0].style.color = 'red';
+      // paragraph[0].style.color = 'blue';
 
+      let subtitle = document.getElementsByTagName('h4')[0].style.color = 'blue';
+       // subtitle[0].style.color = 'blue'; 
     </script>
   </body>
 </html>
