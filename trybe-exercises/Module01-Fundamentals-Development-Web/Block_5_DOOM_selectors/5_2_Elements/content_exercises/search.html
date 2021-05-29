@@ -39,10 +39,12 @@
 
     elementoOndeVoceEsta.appendChild(div);
 
-    primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
-    primeiroFilhoDoFilho.appendChild(div);
-
-   
+    primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho').appendChild(div);
+    
+    
+    let lastChildDiv = primeiroFilhoDoFilho.parentNode.nextElementSibling;
+    console.log(lastChildDiv);
+    
   </script>
 </body>
 </html>
