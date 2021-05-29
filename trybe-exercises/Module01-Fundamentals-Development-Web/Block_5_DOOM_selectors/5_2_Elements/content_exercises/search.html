@@ -9,7 +9,7 @@
 <body>
   <div id="paiDoPai">
     <div id="pai">
-      <div id="primeiroFilho">aaaa</div>
+      <div id="primeiroFilho"></div>
       <div id="elementoOndeVoceEsta">
         <div id="primeiroFilhoDoFilho"></div>
         <div id="segundoEUltimoFilhoDoFilho"></div>
@@ -22,7 +22,9 @@
 
   <script>
     let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
-    console.log(elementoOndeVoceEsta);
+    elementoOndeVoceEsta.parentNode.style.color = 'red';
+  
+    
   </script>
 </body>
 </html>
