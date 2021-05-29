@@ -21,6 +21,8 @@
   </div>
 
   <script>
+    let div = document.createElement('div');
+
     let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
     elementoOndeVoceEsta.parentNode.style.color = 'red';
     elementoOndeVoceEsta.firstElementChild.innerText = 'texto aqui';
@@ -32,11 +34,13 @@
     elementoOndeVoceEsta.nextElementSibling;
     pai.childNodes[7];
 
-    let div = document.createElement('div');
     
     pai.appendChild(div);
 
     elementoOndeVoceEsta.appendChild(div);
+
+    primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+    primeiroFilhoDoFilho.appendChild(div);
 
    
   </script>
