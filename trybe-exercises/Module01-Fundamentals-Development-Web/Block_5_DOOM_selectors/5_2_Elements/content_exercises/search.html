@@ -43,8 +43,15 @@
     
     
     let lastChildDiv = primeiroFilhoDoFilho.parentNode.nextElementSibling;
-    console.log(lastChildDiv);
     
+
+    for (let index = 0; index < pai.childNodes.length; index += 1) {
+      let element = pai.childNodes[index];
+
+      if (element.id !== 'elementoOndeVoceEsta') {
+         pai.removeChild(element);
+      }
+    }
   </script>
 </body>
 </html>
