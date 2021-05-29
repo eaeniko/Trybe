@@ -88,12 +88,12 @@
       leftContent.appendChild(leftImgContent);
 
       const ul = document.createElement('ul');
-      ulList = rightContent.appendChild(ul);
+      liList = rightContent.appendChild(ul);
 
 
       for (let index = 1; index <= 10; index += 1) {
         let liElement = document.createElement('li');
-        ulList.appendChild(liElement).innerText = index;
+        liList.appendChild(liElement).innerText = index;
       }
       
       
@@ -109,7 +109,19 @@
       rightContent.style.marginRight = 'auto';
 
       divMainContent.style.backgroundColor = 'green';
+      
 
+      liList.removeChild(liList.childNodes[9]);
+      liList.removeChild(liList.childNodes[8]);
+      
+      // for (let index = 0; index < liList.childNodes.length; index += 1) {
+
+      //   if (liList.childNodes[index] === 8 || liList.childNodes[index] === 9  ) {
+      //     liList.removeChild(liList.childNodes[index]);
+      //   }
+        
+      // }
+      
 
     </script>
   </body>
