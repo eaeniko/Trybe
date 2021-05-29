@@ -14,7 +14,6 @@ console.log(result);
 
 
 function integer (arrayNumbers) {
-  result = arrayNumbers
   higherIndex = 0;
 
 
