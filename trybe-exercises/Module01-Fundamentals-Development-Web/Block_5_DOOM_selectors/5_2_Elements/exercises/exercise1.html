@@ -86,17 +86,23 @@
       leftImgContent.src = 'https://picsum.photos/200';
       leftContent.appendChild(leftImgContent);
 
-      let ul = document.createElement('ul');
-      ul = rightContent.appendChild(ul);
+      const ul = document.createElement('ul');
+      ulList = rightContent.appendChild(ul);
 
 
       for (let index = 1; index <= 10; index += 1) {
         let liElement = document.createElement('li');
-        ul.appendChild(liElement).innerText = index;
-    
+        ulList.appendChild(liElement).innerText = index;
       }
+      
+      
+      for (let index = 0; index < 3; index += 1) {
+        const h3 = document.createElement('h3');
+        
+        divMainContent.appendChild(h3);
 
-
+      }
+      console.log(divMainContent);
     </script>
   </body>
 </html>
