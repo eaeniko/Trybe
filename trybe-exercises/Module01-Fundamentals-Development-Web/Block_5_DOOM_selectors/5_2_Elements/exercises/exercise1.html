@@ -57,21 +57,26 @@
   </head>
   <body>
     <script>
-      let h1Title = document.createElement('h1');
+      const h1Title = document.createElement('h1');
       h1Title.innerText = 'Exercício 5.2 - JavaScript DOM'
       document.body.appendChild(h1Title);
 
-      let divMainContent = document.createElement('div');
+      const divMainContent = document.createElement('div');
       divMainContent.className = 'main-content';
       document.body.appendChild(divMainContent);
 
 
-      let divCenterContent = document.createElement('div');
+      const divCenterContent = document.createElement('div');
       divCenterContent.className = 'center-content';
       divMainContent.appendChild(divCenterContent);
 
-      let centerContentParagraph = document.createElement('p');
+      const centerContentParagraph = document.createElement('p');
       divCenterContent.appendChild(centerContentParagraph);
+
+      const leftContent = document.createElement('div');
+      leftContent.className = 'left-content';
+      divMainContent.appendChild(leftContent);
+
 
     </script>
   </body>
