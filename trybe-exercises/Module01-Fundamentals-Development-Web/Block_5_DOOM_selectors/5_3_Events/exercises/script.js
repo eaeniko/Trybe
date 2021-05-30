@@ -48,15 +48,23 @@ function holidayBtn(feriados) {
 }
 holidayBtn('Feriados');
 
-
-let btnHoliday = document.getElementById('btn-holiday');
-btnHoliday.addEventListener('click', function() {
+function btnHolidayColor () {
   let holidayDays = document.querySelectorAll('.holiday');
   
   for (let index = 0; index < holidayDays.length; index += 1) {
 
-    holidayDays[index].style.backgroundColor = '#E3DBDB';
+    if (holidayDays[index].style.backgroundColor === '') {
+      holidayDays[index].style.backgroundColor = '#E3DBDB';
+
+    } else {
+      holidayDays[index].style.backgroundColor = '';
+    }
 
     console.log(holidayDays[index]);
   }  
-});
+}
+
+let btnHoliday = document.getElementById('btn-holiday');
+
+btnHoliday.addEventListener('click', btnHolidayColor);
+//btnHoliday.removeEventListener('click', btnHolidayColor);
