@@ -30,7 +30,12 @@ function classTech(event) {
     event.target.className = 'tech';
 }
 
+function typeText () {
+  divUm.innerText = input.value;
+}
+
 divUm.addEventListener('click', classTech);
+input.addEventListener('keyup', typeText);
 divDois.addEventListener('click', classTech);
 divTres.addEventListener('click', classTech);
 
