@@ -43,7 +43,9 @@ function holidayBtn(feriados) {
   let btnContainer = document.querySelector('.buttons-container');
   let buttonHoliday = document.createElement('button');
   buttonHoliday.id = 'btn-holiday';
-  buttonHoliday.innerText = 'Feriados';
+  buttonHoliday.innerText = feriados;
   btnContainer.appendChild(buttonHoliday);
 }
-holidayBtn();
+holidayBtn('Feriados');
+
+
