@@ -1,3 +1,6 @@
+
+
+
 function createDaysOfTheWeek() {
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
   const weekDaysList = document.querySelector('.week-days');
@@ -72,10 +75,28 @@ btnHoliday.addEventListener('click', btnHolidayColor);
 function fridayBtn (friday) {
   let btnFriday = document.createElement('button');
   let containerBtn = document.querySelector('.buttons-container')
+  
   btnFriday.id = 'btn-friday';
   btnFriday.innerText = friday;
-
   containerBtn.appendChild(btnFriday);
-
 }
+
 fridayBtn('Sexta-Feira!');
+
+const fridayButton = document.getElementById('btn-friday');
+
+fridayButton.addEventListener('click', function() {
+
+  let friday = document.querySelectorAll('.friday');
+  let fridayDays = [4, 11, 18, 25]
+
+  for (let index = 0; index < friday.length; index += 1) {
+
+    if (friday[index].innerText == fridayDays[index]) {
+      friday[index].innerText = 'Sexta-Feira!';
+    } else if (friday[index].innerText = 'Sexta-Feira!') {
+      friday[index].innerText = fridayDays[index];
+    }
+  }
+
+})
