@@ -68,3 +68,14 @@ let btnHoliday = document.getElementById('btn-holiday');
 
 btnHoliday.addEventListener('click', btnHolidayColor);
 //btnHoliday.removeEventListener('click', btnHolidayColor);
+
+function fridayBtn (friday) {
+  let btnFriday = document.createElement('button');
+  let containerBtn = document.querySelector('.buttons-container')
+  btnFriday.id = 'btn-friday';
+  btnFriday.innerText = friday;
+
+  containerBtn.appendChild(btnFriday);
+
+}
+fridayBtn('Sexta-Feira!');
