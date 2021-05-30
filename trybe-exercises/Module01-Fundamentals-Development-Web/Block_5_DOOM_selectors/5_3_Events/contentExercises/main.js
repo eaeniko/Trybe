@@ -33,15 +33,21 @@ function classTech(event) {
 function typeText () {
   divUm.innerText = input.value;
 }
-function top3Hover () {
+function clickTop3 () {
   window.open ('https://allmylinks.com/eaeniko');
+}
+function hoverTop3() {
+  myWebpage.style.color = 'red';
 }
 
 divUm.addEventListener('click', classTech);
 divDois.addEventListener('click', classTech);
 divTres.addEventListener('click', classTech);
 input.addEventListener('keyup', typeText);
-myWebpage.addEventListener('click', top3Hover);
+myWebpage.addEventListener('click', clickTop3);
+
+
+myWebpage.addEventListener('mouseover', hoverTop3);
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
