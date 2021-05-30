@@ -49,3 +49,14 @@ function holidayBtn(feriados) {
 holidayBtn('Feriados');
 
 
+let btnHoliday = document.getElementById('btn-holiday');
+btnHoliday.addEventListener('click', function() {
+  let holidayDays = document.querySelectorAll('.holiday');
+  
+  for (let index = 0; index < holidayDays.length; index += 1) {
+
+    holidayDays[index].style.backgroundColor = '#E3DBDB';
+
+    console.log(holidayDays[index]);
+  }  
+});
