@@ -15,7 +15,7 @@ com a classe 'tech';
 3Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 redirecione para alguma página;
 . Que tal redirecionar para seu portifólio?
-3 Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
+4 Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
@@ -33,11 +33,15 @@ function classTech(event) {
 function typeText () {
   divUm.innerText = input.value;
 }
+function top3Hover () {
+  window.open ('https://allmylinks.com/eaeniko');
+}
 
 divUm.addEventListener('click', classTech);
-input.addEventListener('keyup', typeText);
 divDois.addEventListener('click', classTech);
 divTres.addEventListener('click', classTech);
+input.addEventListener('keyup', typeText);
+myWebpage.addEventListener('click', top3Hover);
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
