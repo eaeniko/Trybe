@@ -23,10 +23,8 @@ function days() {
     
     if (dezDaysList[index] === 24 || dezDaysList[index] === 25 || dezDaysList[index] === 31) {
       daysLi.className = 'day holiday';
-      console.log(dezDaysList[index]);
     } else {
       daysLi.className = 'day';
-      console.log(dezDaysList[index]);
     }
     daysLi.innerText = dezDaysList[index];
     daysUL.appendChild(daysLi);
@@ -40,3 +38,12 @@ function days() {
   }
 }
 days();
+
+function holidayBtn(feriados) {
+  let btnContainer = document.querySelector('.buttons-container');
+  let buttonHoliday = document.createElement('button');
+  buttonHoliday.id = 'btn-holiday';
+  buttonHoliday.innerText = 'Feriados';
+  btnContainer.appendChild(buttonHoliday);
+}
+holidayBtn();
