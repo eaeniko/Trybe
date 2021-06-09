@@ -27,7 +27,7 @@
       <input type="text" maxlength="28" id="input-cidade" required>
 
       <label for="estado">Estado</label>
-        <select name="estado" id="estado">Estado
+        <select name="estado" id="estado" required>Estado
         </select>
       </label>
 
@@ -37,14 +37,25 @@
       <label for="input-apt">
         <input type="radio" value="apt" id="input-apt" name="tipo">Apartamento</input>
       </label>
-
-      
-
     </fieldset>
 
+    <fieldset>
+      <legend>Ultimo emprego:</legend>
+      <label for="cv-resume">Resumo do currículo:
+        <textarea name="cv-resume" id="cv-resume" cols="30" rows="8" maxlength="1000" required></textarea>
+      </label>
+      <label for="office">Cargo:
+        <input type="text" name="office" id="office" required>
+      </label>
+      <label for="office-desc">Descrição do Cargo:
+        <textarea name="office-desc" id="office-desc" cols="20" rows="6" maxlength="500" required></textarea>
+      </label>
+      <label for="init-date">Data de inicio:
+        <input type="date" name="init-date" id="init-date" required>
+      </label>
+
+    </fieldset>
   </form>
-
-
   <script src="script.js"></script>
 </body>
 </html>
