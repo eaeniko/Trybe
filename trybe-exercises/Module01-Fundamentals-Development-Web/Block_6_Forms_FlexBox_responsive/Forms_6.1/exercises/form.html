@@ -8,7 +8,42 @@
   <title>Forms</title>
 </head>
 <body>
-  
+  <form action="get">
+    <fieldset>
+      <legend>Dados Pessoais:</legend>
+      <label for="input-name">Nome:</label>
+      <input type="text" maxlength="40" id="input-name" required>
+
+      <label for="input-email">Email:</label>
+      <input type="email" maxlength="50" id="input-email" required>
+
+      <label for="input-cpf">CPF:</label>
+      <input type="number" maxlength="11" id="input-cpf" required>
+
+      <label for="input-endereco">Endereço:</label>
+      <input type="text" maxlength="200" id="input-endereco" required>
+
+      <label for="input-cidade">Cidade:</label>
+      <input type="text" maxlength="28" id="input-cidade" required>
+
+      <label for="estado">Estado</label>
+        <select name="estado" id="estado">Estado
+        </select>
+      </label>
+
+      <label for="input-casa" required>Tipo:
+        <input type="radio" value="Casa" id="input-casa" name="tipo">Casa</input>
+      </label>
+      <label for="input-apt">
+        <input type="radio" value="apt" id="input-apt" name="tipo">Apartamento</input>
+      </label>
+
+      
+
+    </fieldset>
+
+  </form>
+
 
   <script src="script.js"></script>
 </body>
