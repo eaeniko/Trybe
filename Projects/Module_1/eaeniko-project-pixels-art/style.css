@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: rgb(184, 184, 184);
+}
+
+#color-palette {
+  margin-bottom: 20px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+  margin: auto;
+}
+
+#clear-board {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
