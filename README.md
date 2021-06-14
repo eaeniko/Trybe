@@ -26,3 +26,30 @@ Our first module will teach you everything you need to know to start your career
 * Selecting and position
 * Semantic HTML
 * Project - Lessons Learned
+
+## Block 4 - JavaScript & Programming Logic
+* JavaScript - Introduction
+* JavaScript - First Steps
+* JavaScript - Array, Loop For
+* Programming Logic and Algorithm
+* JavaScript - Function and Objects
+* Project - Playground Functions
+
+## Block 5 - JavaScript, DOM, Events & Web Storage
+* DOM & Selectors
+* Working with elements
+* Events
+* Web Storage
+* Fundaments - JavaScript - Projects
+* Project - Art with pixels
+* Project - To do list
+* Bonus
+
+## Block 6 - HTML & CSS: Forms, Flexbox & Responsive
+* HTML & CSS - Forms
+* Library JavaScript and Frameworks CSS
+* Introduction - CSS Flexbox
+* CSS Flexbox - Part 1
+* CSS Flexbox - Part 2
+* Responsive CSS - Mobile First
+* Project Trybewarts
