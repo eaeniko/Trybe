@@ -1,6 +1,7 @@
 # Trybe - Full-Stack JavaScript Developer
 
-Here in this repo contains everything I'm gonna learn in 12 months everything to bee a Full-Stack JavaScript. You can find projects, exercises and stuff.
+Here in this repo contains everything I'm gonna learn in 12 months everything to be a Full-Stack JavaScript. You can find projects, exercises and stuff.
+We learn Soft Skills too.
 
 This course has 4 modules separated with blocks & topics.
 
