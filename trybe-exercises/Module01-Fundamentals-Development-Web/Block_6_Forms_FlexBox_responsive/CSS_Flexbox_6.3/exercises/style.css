@@ -23,7 +23,8 @@ body {
 
 .menu-container {
   display: flex;
-  flex-basis: 500px;
+  flex-basis: 768px;
+  flex-grow: 1;
   order: 1;
 }
 
