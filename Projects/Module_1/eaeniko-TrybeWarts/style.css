@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  display: flex;
+  height: 13vh;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+}
+
+.trybewarts-login input , .trybewarts-login button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 6px;
+}
+
+.form-text {
+  text-align: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.trybewarts-login button {
+  padding: 10px 50px;
+  background-color: rgb(70, 32, 100);
+  color: white;
+  cursor: pointer;
+}
+
+.trybewarts-login button:hover {
+  background-color: rgb(102, 39, 151);
+}
+
+.trybewarts-login {
+  align-items: baseline;
+  display: flex;
+  justify-content: right;
+
+}
+
+#main-page {
+  background-color: rgba(231, 229, 221, 0.7);
+  display: flex;
+  height: 80vh;
+  justify-content: space-around;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 675px;
+}
+
+.form-element {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-element label {
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  width: 50px;
+}
+
+.checkbox-content label {
+  margin-left: 5px;
+}
+
+.form-element input , .form-element select {
+  border: 1.5px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  padding: 8px;
+  width: 300px;
+}
+
+#trybewarts-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#options-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#radio-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.radio-element {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+#radio-buttons #label-family {
+  margin-bottom: 20px;
+}
+
+#checkbox-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 100%;
+}
+
+.checkbox-content {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+}
+
+.label-content {
+  display: flex;
+  width: 100px;
+}
+
+#rate-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#numbers-container {
+  display: flex;
+}
+
+#numbers-container input {
+  margin-left: 10px;
+}
+
+.rating label {
+  margin-right: 2px;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea-container label {
+  margin-bottom: 5px;
+}
+
+#textarea-container textarea {
+  border-radius: 5px;
+}
+
+#agreement-container {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#agreement-container label {
+  margin-right: 10px;
+}
+
+#agreement-container input {
+  width: 16px;
+  height: 16px;
+}
+
+#submit-btn {
+  border: 1.5px solid rgb(70, 32, 100);
+  border-radius: 5px;
+  background-color: rgb(70, 32, 100);
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#submit-btn:hover {
+  background-color: rgb(102, 39, 151);
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+footer {
+  color: white;
+  background-color: rgb(82, 81, 81);
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1em;
+  height: 7vh;
+  margin-top: 100px;
+}
