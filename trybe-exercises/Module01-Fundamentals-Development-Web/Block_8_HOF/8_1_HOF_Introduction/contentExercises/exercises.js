@@ -1,4 +1,7 @@
-const wakeUp = () => 'Acordando';
-const callBreakfeast = () => 'Bora tomar café!!';
-const callBreakfeast = () => 'Partiu dormir!!';
-
+const wakeUp = () => console.log('Acordando');
+const callBreakfeast = () => console.log('Bora tomar café!!');
+const sleep = () => console.log('Partiu dormir!!');
+const doingThings = (callback) => {
+  callback();
+}
+doingThings(sleep);
