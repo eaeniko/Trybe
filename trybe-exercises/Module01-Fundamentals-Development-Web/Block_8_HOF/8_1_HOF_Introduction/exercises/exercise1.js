@@ -1,6 +1,6 @@
 const person = (name) => {
   const obj = {
-    nomeCompleto: name,
+    name,
     email: `${name.toLowerCase().replace(' ', "_")}@trybe.com`,
   }
   return obj;
