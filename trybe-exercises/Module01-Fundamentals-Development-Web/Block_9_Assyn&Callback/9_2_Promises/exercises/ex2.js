@@ -8,8 +8,6 @@ const populateArrayWithRandomNumbers = () => {
 }
 const totalRandomNumbers = () => populateArrayWithRandomNumbers().reduce((acc, currValue) => acc += currValue);
 
-foreach()
-
 const promise = new Promise ((resolve, reject) => {
   const newNumber = totalRandomNumbers();
   if (newNumber > 8000) {
