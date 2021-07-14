@@ -18,7 +18,7 @@ Our first module will teach you everything you need to know to start your career
 ## Block 2 - Git, GitHub & Internet
 * Git & GitHub - What is and what is for
 * Git & GitHub - Learning the commands
-* Internet - Leraning how it works
+* Internet - Learning how it works
 
 ## Block 3 - Introduction HTML & CSS
 * Introduction HTML & CSS
