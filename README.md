@@ -1,6 +1,6 @@
 # Trybe - Full-Stack JavaScript Developer
 
-This repo contains everything I'm gonna learn in 12 months everything to be a Full-Stack JavaScript junior. You can find projects, exercises and stuff.
+This repo contains everything I've learned in 12 months (2021-2022) to be a Full-Stack JavaScript junior. You can find projects, exercises and stuff.
 We learn Soft Skills too.
 
 This course has 4 modules separated with blocks & topics. Each topic is equivalent an entire day about that topic. Project can be more than one day.
