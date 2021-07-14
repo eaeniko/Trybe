@@ -54,3 +54,28 @@ Our first module will teach you everything you need to know to start your career
 * CSS Flexbox - Part 2
 * Responsive CSS - Mobile First
 * Project Trybewarts
+
+## Block 7 - Introduction ES6 & Unit Test
+* ES6 - Let, const, arrow function, template literals
+* ES6 - objects
+* Unit Test - Assert
+* Project - Unit Test
+
+## Block 8 - Higher Order Functions ES6
+* Introduction - HOF
+* HOF - forEach, find, some, every, sort
+* HOF - Map, filter
+* HOF - Reduce
+* Spread Operator, rest parameter, destructuring etc
+* Project - Zoo Functions
+
+## Block 9 - Async JS & Promises
+* Async & Callbacks
+* Promises
+* Project - Shopping Cart 
+
+## Block 10 - Automatic tests with Jest
+* First Steps with Jest
+* Jest - Async test
+* Jest - Simulate behavior
+* Project - Async Jest and Mocking
