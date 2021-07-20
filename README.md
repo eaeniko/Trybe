@@ -79,3 +79,6 @@ Our first module will teach you everything you need to know to start your career
 * Jest - Async test
 * Jest - Simulate behavior
 * Project - Async Jest and Mocking
+
+
+## Module 2 - Front-end development React
