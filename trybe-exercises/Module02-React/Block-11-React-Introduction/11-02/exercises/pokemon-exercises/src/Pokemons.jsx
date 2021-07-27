@@ -9,7 +9,7 @@ class Pokemons extends Component {
         <p><span className="font">Name:</span> {pokemon.name}</p>
         <p><span className="font">Type:</span> {pokemon.type}</p>
         <p><span className="font">Weight:</span> {pokemon.averageWeight.value} {pokemon.averageWeight.measurementUnit}</p>
-        <img src={pokemon.image} alt= {`Imagem do Pokemon ${pokemon.name}`}/>
+        <img src={pokemon.image} alt= {`Pokemon: ${pokemon.name}`}/>
       </section>
     ))
   }
