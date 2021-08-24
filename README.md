@@ -81,4 +81,11 @@ Our first module will teach you everything you need to know to start your career
 * Project - Async Jest and Mocking
 
 
-## Module 2 - Front-end development React
+## Module 2 - Front-end development
+
+## Block 11 - React Introduction
+* Intro - Front-end
+* Intro - React
+* React - Hello World
+* React Components
+* Project - Movie Cards Library
