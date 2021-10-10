@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  overflow-x: scroll;
+  width: 340px;
+}
+
+.cards {
+  min-width: 180px;
+}
+
+.recipe-start {
+  bottom: 0;
+  position: fixed;
+  right: 10px;
+}
